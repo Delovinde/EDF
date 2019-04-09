@@ -26,7 +26,7 @@ SCANDETAIL4VALUE=`df | grep sda1 | awk '{ print $5  }' | sed 's/\%$//'`
 #echo "$SCANDETAIL1NAME":\"$SCANDETAIL1VALUE\"
 #echo "$SCANDETAIL2NAME":\"$SCANDETAIL2VALUE\"
 
-LC=/home/hermit/EDF
+LC=$HOME/EDF
 
 # the class path for java
 CPATH=$LC/axis/WEB-INF/lib/commons-collections-2.1.1.jar:$LC/axis/WEB-INF/lib/jline.jar:$LC/axis/WEB-INF/lib/axis.jar:$LC/axis/WEB-INF/lib/commons-digester.jar:$LC/axis/WEB-INF/lib/log4j-1.2.8.jar:$LC/axis/WEB-INF/lib/bcprov-jdk14-126.jar:$LC/axis/WEB-INF/lib/commons-discovery.jar:$LC/axis/WEB-INF/lib/jaxrpc.jar:$LC/axis/WEB-INF/lib/saaj.jar:$LC/axis/WEB-INF/lib/commons-beanutils.jar:$LC/axis/WEB-INF/lib/commons-logging.jar:$LC/axis/WEB-INF/lib/wsdl4j.jar:$LC/axis/WEB-INF/lib/dmsapi.jar:$LC/jar/EDFGenApp.jar:$LC/resources
