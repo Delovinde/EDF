@@ -7,7 +7,7 @@ SCANDETAIL1VALUE=`uptime | awk '{ print $1 }'`
 
 # JETTY thread count
 SCANDETAIL2NAME="SD1641748_EDF_2"
-SCANDETAIL2VALUE=ps huH p `cat /run/jetty.pid` | wc -l
+SCANDETAIL2VALUE=`ps huH p \`cat /run/jetty.pid\` | wc -l`
 
 # Debugging statements
 echo Activation Code: $ACTIVATIONCODE
