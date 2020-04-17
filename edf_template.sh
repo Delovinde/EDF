@@ -3,7 +3,7 @@ ACTIVATIONCODE=2de3096d-190d14
 
 # Server time
 SCANDETAIL1NAME="SD1641748_EDF_1"
-SCANDETAIL1VALUE=`uptime | awk '{ print $1 }'`
+SCANDETAIL1VALUE=`cat /proc/uptime | awk '{ print $1 }'`
 
 # JETTY thread count
 SCANDETAIL2NAME="SD1641748_EDF_2"
